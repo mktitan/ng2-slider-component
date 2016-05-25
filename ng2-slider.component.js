@@ -244,7 +244,7 @@ var Ng2SliderComponent = (function () {
     Ng2SliderComponent = __decorate([
         core_1.Component({
             selector: 'ng2-slider',
-            templateUrl: 'app/ng2-slider-component/ng2-slider.component.html',
+            templateUrl: 'ng2-slider.component.html',
             directives: [slideable_directive_1.SlideAbleDirective],
             changeDetection: core_1.ChangeDetectionStrategy.CheckAlways
         }), 
