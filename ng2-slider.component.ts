@@ -13,7 +13,7 @@ export enum RangeHandle {Start, End, Both}
 
 @Component({
     selector: 'ng2-slider',
-    templateUrl: 'app/ng2-slider-component/ng2-slider.component.html',
+    templateUrl: 'ng2-slider.component.html',
     directives: [SlideAbleDirective],
     changeDetection: ChangeDetectionStrategy.CheckAlways
 })
