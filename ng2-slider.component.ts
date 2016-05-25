@@ -5,7 +5,7 @@
 declare var module: any;
 declare var __moduleName: string;
 
-import {Component, Input, Output, ViewChild, ElementRef, ChangeDetectionStrategy, ChangeDetectorRef, EventEmitter} from 'angular2/core'
+import {Component, Input, Output, ViewChild, ElementRef, ChangeDetectionStrategy, ChangeDetectorRef, EventEmitter} from '@angular/core'
 import {SlideAbleDirective, BoundingRectClass, IEventSlideAble} from 'ng2-slideable-directive/slideable.directive';
 
 
