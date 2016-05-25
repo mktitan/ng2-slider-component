@@ -160,11 +160,16 @@ export class Ng2SliderComponent {
         Object.assign(this.resultSlidingHandlerStyle, this.initSlidingHandlerStyle, this.slidingHandlerStyle);
         Object.assign(this.resultRangeRibbonStyle, this.initRangeRibbonStyle, this.rangeRibbonStyle);
 
+        console.log(this.resultRangeRibbonStyle);
+        console.log(this.initRangeRibbonStyle);
+        console.log(this.rangeRibbonStyle);
+
         // Compile range ribbon style line from object
         var rangeRangeRibbonStyle = '';
         for (let idx in this.resultRangeRibbonStyle) {
             rangeRangeRibbonStyle += idx + ':' + this.resultRangeRibbonStyle[idx] + ';';
         }
+        console.log(rangeRangeRibbonStyle);
         this.resultRangeRibbonStyle = rangeRangeRibbonStyle;
 
    }
