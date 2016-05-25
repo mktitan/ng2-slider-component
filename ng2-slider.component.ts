@@ -45,7 +45,7 @@ export enum RangeHandle {Start, End, Both}
                     <div #ribbon
                          id="{{id + '-ribbon'}}"
                          class="ui-slider-range ui-widget-header ui-corner-all"
-                         [ngStyle]="{{ (resultRangeRibbonStyle !=  null) ? resultRangeRibbonStyle : null }}">
+                         [ngStyle]="resultRangeRibbonStyle">
                     </div>
                     <span #start
                           slideAble
