@@ -159,14 +159,6 @@ export class Ng2SliderComponent {
         Object.assign(this.resultNormalHandlerStyle, this.initNormalHandlerStyle, this.normalHandlerStyle);
         Object.assign(this.resultSlidingHandlerStyle, this.initSlidingHandlerStyle, this.slidingHandlerStyle);
         Object.assign(this.resultRangeRibbonStyle, this.initRangeRibbonStyle, this.rangeRibbonStyle);
-
-        // Compile range ribbon style line from object
-        var rangeRangeRibbonStyle = '';
-        for (let idx in this.resultRangeRibbonStyle) {
-            rangeRangeRibbonStyle += idx + ':' + this.resultRangeRibbonStyle[idx] + ';';
-        }
-        this.resultRangeRibbonStyle = rangeRangeRibbonStyle;
-
    }
 
     refreshInputBox(boundingRect, handle:RangeHandle) {

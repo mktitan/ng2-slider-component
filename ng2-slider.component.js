@@ -63,11 +63,6 @@ var Ng2SliderComponent = (function () {
         Object.assign(this.resultNormalHandlerStyle, this.initNormalHandlerStyle, this.normalHandlerStyle);
         Object.assign(this.resultSlidingHandlerStyle, this.initSlidingHandlerStyle, this.slidingHandlerStyle);
         Object.assign(this.resultRangeRibbonStyle, this.initRangeRibbonStyle, this.rangeRibbonStyle);
-        var rangeRangeRibbonStyle = '';
-        for (var idx in this.resultRangeRibbonStyle) {
-            rangeRangeRibbonStyle += idx + ':' + this.resultRangeRibbonStyle[idx] + ';';
-        }
-        this.resultRangeRibbonStyle = rangeRangeRibbonStyle;
     };
     Ng2SliderComponent.prototype.refreshInputBox = function (boundingRect, handle) {
         var value = this.range.calculateValueFromX(boundingRect.left + Math.round(boundingRect.width / 2));
