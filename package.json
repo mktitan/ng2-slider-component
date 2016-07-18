@@ -24,7 +24,7 @@
     "range"
   ],
   "dependencies": {
-    "@angular/core": "2.0.0-rc.1",
+    "@angular/core": "2.0.0-rc.2",
     "ng2-slideable-directive": "Toktik/ng2-slideable-directive#compiled"
   },
   "devDependencies": {},
