@@ -1,4 +1,4 @@
-<div class="slider-input-block">
+<div *ngIf="inputs" class="slider-input-block">
     <input type="number"
            id="{{id + '-start-value'}}"
            class="slider-input-box"
@@ -11,7 +11,7 @@
            #startInput
            />
 </div>
-<div *ngIf="isRange" class="slider-input-block">
+<div *ngIf="inputs && isRange" class="slider-input-block">
     <input type="number"
            id="{{id + '-end-value'}}"
            class="slider-input-box"

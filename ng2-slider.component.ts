@@ -28,6 +28,7 @@ export class Ng2SliderComponent {
     @Input() set value(value:string) {
         this.startValue = parseFloat(value);
     }
+    @Input() inputs: boolean;
 
     @Input() normalHandlerStyle: Object;
     @Input() slidingHandlerStyle: Object;
